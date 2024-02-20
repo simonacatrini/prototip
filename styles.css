@@ -1,31 +1,29 @@
 :root 
-{
-    --link-color: #fff;
+{--heading-font-family:'Raleway'.sans-serif;
+    --text-font-family:'Roboto'.sans-serif;
+}
+.global-header{
+    background-color:#fff;
+
+}
+   
+.webstudio .web{
+    color:#4d5ae5;
+    font-weight:700px;
+    font-size:18px;
+    line-height:21px;
+    --heading-font-family:sans-serif;
+}
+.webstudio .studio{
+    color:#2e2f42;
+    font-weight:700px;
+    font-size:18px;
+    line-height:21px;
+    --heading-font-family:sans-serif;
+}
+.global-header .main-nav a,
+.global-header .main-nav a:visited{
+    color:var(--link-color)
 
 }
 
-body{
-  
-
-            font-family: 'Roboto', sans-serif;
-            font-weight: 500;
-            font-style: normal;
-}
-.a:hover {
-    background-color: yellow;
-}
-.global-header {
-    background-color: #FFFFFF;}
-
-
-.global-header.main-nav a .global-header.main-nav a:visited {
-    color: var(--link-color);
-}
-
-.global-header.main-nav li {
-    list-style-type: none;
-}
-
-.global-header.main-nav a .active {
-
-}
