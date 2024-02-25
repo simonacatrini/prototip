@@ -1,0 +1,257 @@
+:root {
+    --link-color: #fff;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo::before {
+    content: "WEB";
+
+    color: #4d5ae5;
+}
+
+.logo::after {
+    content: "STUDIO";
+    color: black
+}
+
+.logo {
+    font-family: "raleway", serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 21px;
+    width: 115px;
+    height: 24px;
+    top: 24px;
+    left: 156px;
+
+}
+
+.menu-nav {
+    font-family: "robot";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main-nav {
+    font-family: "roboto", serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.mail {
+    font-family: "roboto", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+    left: 948px;
+    top: 24px;
+}
+
+.tel {
+    font-family: "roboto", serif;
+    font-weight: 400;
+    line-height: 24px;
+    height: 24px;
+    left: 1123px;
+    top: 24px;
+}
+
+.text-center {
+    text-align: center;
+    position: midle;
+}
+
+
+
+
+.our-team {
+    text-align: center;
+    position: relative;
+    color: var(--link-color);
+}
+
+.images-MarkGuerrero.jpg {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgb(46, 47, 66, 0.08), 0 1px 6px 0 rgba(46.47, 66, 0.08);
+    background: #fff;
+}
+
+.images-TomFord.jpg {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgb(46, 47, 66, 0.08),
+        0 1px 6px 0 rgba(46.47, 66, 0.08);
+    background: #fff;
+}
+
+.images-CamilaGarcia.jpg {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgb(46, 47, 66, 0.08),
+        0 1px 6px 0 rgba(46.47, 66, 0.08);
+    background: #fff;
+}
+
+.images-DanieLWilson.jpg {
+    border-radius: 0 0 4px;
+    padding: 0px 0px 32px 0px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgb(46, 47, 66, 0.08),
+        0 1px 6px 0 rgba(46.47, 66, 0.08);
+    background: #fff;
+}
+
+li:hover {
+    cursor: pointer;
+    color: blue;
+    background-color: #F4F4FD;
+    color: #4d5ae5;
+}
+
+.tutorial {
+    background-color: #404BBF;
+    border-radius: 4px;
+    padding: 12px 24px 12px 24px;
+    height: 48px;
+}
+
+.site-nav:link {
+    text-transform: none;
+    Width: 116px;
+    Height: 48px;
+    Border: 1px;
+    padding: 12px 24px 12px 24px;
+    background-color: #F4F4FD;
+}
+
+
+
+.word {
+    border: 2px solid #fff;
+    /* Default border color */
+    padding: 5px;
+    display: inline-block;
+    /* Ensures the element is focusable */
+}
+
+.word:hover,
+.word:focus,
+.word:active {
+    border-color: #4dcee5;
+
+    /* Border color when hovered or focused */
+    border: 2px;
+    /* Default border color */
+    padding: 5px;
+    display: inline-block;
+    /* Ensures the element is focusable */
+    width: 1440px;
+    height: 2076px;
+    top: -1169px;
+    left: 2035px;
+}
+
+.img {
+    Width: 360px;
+    Height: 420px;
+    Top: 288px;
+    Left: 156px;
+    Border: 1px;
+    color: #fff;
+    border-color: #E7E9FC;
+}
+
+.img2 {
+    Width: 360px;
+    Height: 420px;
+    Top: 288px;
+    Left: 540px;
+    Border: 1px;
+    color: #fff;
+    border-color: #E7E9FC;
+}
+
+.img3 {
+    Width: 360px;
+    Height: 420px;
+    Top: 288px;
+    Left: 924px;
+    Border: 1px;
+    color: #fff;
+    border-color: #E7E9FC;
+}
+
+.img8 {
+    Width: 360px;
+    Height: 420px;
+    Top: 756px;
+    Left: 156px;
+    Border: 1px;
+    color: #fff;
+    border-color: #E7E9FC;
+}
+
+.img9 {
+    Width: 360px;
+    Height: 420px;
+    Top: 756px;
+    Left: 540px;
+    Border: 1px;
+    color: #fff;
+    border-color: #E7E9FC;
+}
+
+.img10 {
+    Width: 360px;
+    Height: 420px;
+    Top: 756px;
+    Left: 924px;
+    Border: 1px;
+    color: #fff;
+    border-color: #E7E9FC;
+}
+
+.img11 {
+    Width: 360px;
+    Height: 420px;
+    Top: 1224px;
+    Left: 156px;
+    Border: 1px;
+    color: #fff;
+    border-color: #E7E9FC;
+}
+
+.pimg12 {
+    Width: 360px;
+    Height: 420px;
+    Top: 1224px;
+    Left: 540px;
+    Border: 1px;
+    color: #fff;
+    border-color: #E7E9FC;
+}
+
+.img13 {
+    Width: 360px;
+    Height: 420px;
+    Top: 1224px;
+    Left: 924px;
+    Border: 1px;
+    color: #fff;
+    border-color: #E7E9FC;
